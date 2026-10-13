@@ -1,0 +1,188 @@
+body {
+	background-color: skyblue;
+
+	font-family: Arial, sans-serif;
+
+	color: #333333;
+
+	margin: 0;
+
+	padding: 0;
+}
+
+.container {
+	width: 80%;
+
+	margin:  30px auto;
+
+	padding: 30px;
+
+	background:  white;
+}
+
+h1 {
+	color: skyblue;
+
+	text-align: center;
+
+	margin-bottom: 20px;
+}
+
+h2 {
+	color: #00509e;
+
+	margin-top: 30px;
+
+	margin-bottom: 15px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 1.7;
+	text-align: justify;
+}
+
+.identitas {
+	width: 100%;
+}
+.kolom-foto {
+	vertical-align: top;
+}
+
+.foto-profil {
+	width: 142px;
+
+	border: 3px solid #00509e;
+
+	padding: 5px;
+}
+
+.data-identitas td {
+	padding: 5px;
+}
+
+ul,
+ol {
+	line-height: 1.8;
+}
+
+.tabel-matakuliah {
+	width: 100%;
+
+	background-color: collapse;
+
+	margin-top: 15px;
+
+	margin-bottom: 20px;
+}
+.tabel-matakuliah th {
+	background-color: #00509e;
+
+	color: white;
+
+	padding: 10px;
+
+	border: 1px solid #cccccc;
+}
+.tabel-matakuliah td {
+	padding: 10px;
+
+	border: 1px solid #cccccc;
+}
+
+a {
+	color: #0066cc;
+
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+
+	text-decoration: underline;
+}
+
+form {
+	background-color: #f1f5f9;
+
+	padding: 20px;
+
+	margin-top: 20px;
+
+	border: 1px solid #cccccc;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+label {
+	display: block;
+
+	font-weight: bold;
+
+	margin-bottom: 5px;
+
+}
+
+input,
+select,
+textarea {
+	width: 100%;
+
+	padding: 10px;
+
+	border: 1px solid #cccccc;
+
+	box-sizing: border-box;
+}
+
+textarea {
+	resize: vertical;
+}
+
+batton {
+	background-color: #00509e;
+
+	color: white;
+
+	padding: 10PX 20PX;
+
+	border: none;
+
+	margin-right: 10px;
+
+	cursor: pointer; 
+}
+
+batton:hover {
+	background-color: #003366;
+}
+
+.footer {
+	text-align: center;
+
+	color: #666666;
+
+	margin-top: 3opx;
+}
+
+.grid-informasi {
+	display: grid;
+
+	grid-template-columns: repeat(3, 1fr);
+
+	gap: 20px;
+
+	margin-top: 25px;
+
+   margin-bottom: 25px;
+}
+
+.card {
+	background-color: cadetblue;
+
+	padding: 20px;
+
+	border: 1px solid #dddddd;
+}
